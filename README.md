@@ -5,6 +5,23 @@ BarrioDigital es una plataforma basada en arquitectura de microservicios orienta
 La solución separa las distintas responsabilidades del sistema en microservicios independientes, utiliza Apache Kafka para comunicación mediante eventos, bases de datos separadas por servicio, autenticación con Microsoft Entra ID mediante MSAL y exposición de servicios mediante AWS API Gateway.
 
 ---
+## PASOS PARA LEVANTAR EL SISTEMA
+1- Crear una carpeta en el escritorio y luego entrar en ella (se usara para clonar todos los repositorios)
+ 
+2- Clonar el repositorio de infraestructura
+Clona únicamente el repositorio /infra que acabas de configurar (es el que contiene tu cerebro de automatización) y accede a su carpeta:
+git clone https://github.com/TU_ORGANIZACION_O_USUARIO/infra.git
+ luego entrar en la carpeta infra con cd infra
+
+3- Ejecutar el script restaurador
+Ejecuta tu script de automatización para que descargue de forma simultánea los otros 8 repositorios del proyecto:
+powershell -ExecutionPolicy Bypass -File .\restaurar-workspace.ps1
+
+Este comando clonará automáticamente en la carpeta de tu Workspace los repositorios de frontend-barriodigital, ms-barriodigital-bff, los 5 microservicios de dominio (requests, catalog, notify, report, audit) y la carpeta de documentación /docs.
+Paso 5: Levantar toda la infraestructura con un solo comando
+Dado que renombraste el archivo maestro a docker-compose.yml en la raíz de /infra (tal como se aprecia en tu captura de pantalla), solo debes ejecutar el comando estándar de Docker:
+docker compose up -d
+
 
 ## Arquitectura general
 
