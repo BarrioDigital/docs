@@ -845,6 +845,15 @@ Frontend
 Catalog Service
 Requests Service
 Audit Service
+
+
+#Clonación de repositorios
+
+Para poder clonar uno o los 9 repositorios primero se debe primero crear una carpeta en tu escritorio (con cualquier nombre), después debes abrir PowerShell e ingresar los siguientes comandos:
+cd Desktop
+cd (el nombre de la carpeta que se ha creado)
+docker compose up -d
+
 Report Service
 Infraestructura
 Documentación
