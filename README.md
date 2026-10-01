@@ -842,9 +842,18 @@ La solución se organiza en distintos repositorios asociados a:
 
 
 Frontend
+
 Catalog Service
+
 Requests Service
+
 Audit Service
+
+Report Service
+
+Infraestructura
+
+Documentación
 
 
 # Clonación de repositorios
@@ -856,8 +865,3 @@ git clone https://github.com/(nombre del proyecto)/(repositorio que se quiere cl
 docker compose up -d
 
 cd Desktop permite mover o cambiar la ubicicac el git clone como dicta su función clona el repositorio con sus archivos del proyecto a la nueva carpeta que se había creado anteriormente
-
-Report Service
-Infraestructura
-Documentación
-
