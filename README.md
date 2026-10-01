@@ -870,4 +870,4 @@ docker compose up -d
 
 cd Desktop permite mover o cambiar la ubicicavión 
 
-el git clone como dicta su función clona el repositorio con todos sus archivos del proyecto a la nueva carpeta que se había creado anteriormente, esto puede ser usado ya sea para traspasar el proyecto a un nuevo espacio o tener respaldos por si se llega a perder todo el progreso que se realizo.
+el git clone como dicta su función clona el o los repositorios con todos sus archivos del proyecto a la nueva carpeta que se había creado con anterioridad, esto puede ser usado ya sea para traspasar el proyecto a un nuevo espacio de trabajo más comodo o tener respaldos por si se llega a perder todo el progreso que se realizo.
