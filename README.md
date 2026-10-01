@@ -859,12 +859,15 @@ Documentación
 # Clonación de repositorios
 
 Para poder clonar uno o los 9 repositorios primero se debe crear una carpeta en tu escritorio (con cualquier nombre), después debes abrir PowerShell e ingresar los siguientes comandos:
+
 cd Desktop
+
 cd (el nombre de la carpeta que se ha creado)
 
 git clone https://github.com/(nombre del proyecto)/(repositorio que se quiere clonar).git
 
 docker compose up -d
 
+cd Desktop permite mover o cambiar la ubicicavión 
 
-cd Desktop permite mover o cambiar la ubicicac el git clone como dicta su función clona el repositorio con sus archivos del proyecto a la nueva carpeta que se había creado anteriormente
+el git clone como dicta su función clona el repositorio con todos sus archivos del proyecto a la nueva carpeta que se había creado anteriormente, esto puede ser usado ya sea para traspasar el proyecto a un nuevo espacio o tener respaldos por si se llega a perder todo el progreso que se realizo.
